@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans&display=swap');
+
+html {
+    font-family: 'Arvo', serif;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    color: bisque;
+}
+
+body {
+    background-color: rgb(136, 88, 88);
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+header nav {
+    padding: 1rem 4rem;
+    background-color: rgb(155, 141, 168);
+    margin: auto;
+    border: 1.5px solid black;
+}
+
+a:hover {
+    color: rgb(77, 71, 61);
+}
+
+a {
+    color: rgb(175, 223, 120);
+    text-decoration: none;
+}
+
+
+ul li {
+    display: inline;
+}
+
+article {
+    padding: 1rem 4rem 3rem;
+    border-bottom: 1.5px black solid;
+    border-radius: 1%;
+    margin-top: 0;
+}
+
+
+article nav {
+    padding: 1rem;
+}
+
+article ul li,
+article ul {
+    padding: 0;
+}
+
+
+img {
+    align-content: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 30%;
+}
+
+footer {
+    background-color: rgb(112, 169, 150);
+    margin: 0;
+}
+
+
+div:last-of-type h2 {
+    color: red;
+    border: 1px red solid;
+}

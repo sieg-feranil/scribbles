@@ -1,0 +1,22 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: aquamarine;
+    color: black;
+}
+div {
+    background-color: rgb(56, 169, 36, 0.9);
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    border: 10px solid lightsteelblue;
+    /* border-width: 20px;
+    border-style: dotted;
+    border-color: blue; */
+    
+}
+
+#box1 div h1 {
+    background-color: blueviolet;
+    font-size: 30px;
+}

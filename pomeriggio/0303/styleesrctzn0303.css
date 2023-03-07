@@ -1,0 +1,116 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(117, 195, 195) ;
+}
+
+.clearRow {
+    clear: both;
+}
+
+#articles {
+    margin-top: 2rem;
+    /* background-color: aqua; */
+    margin: 1rem auto;
+}
+
+#articles article {
+    width: 15rem;
+    height: fit-content;
+    background-color: #516868;
+    padding: 1rem 1rem 2.4rem;
+    border-radius: 10px;
+    color: #20032c;
+    float: left;
+    margin-right: 1rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    /* border: 1px solid #384747; */
+}
+
+
+#articles article:hover {
+    background-color: #20032c;
+    color: #516868;
+}
+
+#articles .article-title {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#articles .article-image {
+    margin-bottom: 1rem;
+    background-position: center;
+    background-size: cover; 
+    
+}
+
+#articles .article-image-left,
+#articles .article-image-right {
+    float: left;
+    width: 5rem;
+    height: 5rem;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.bg-maldives {
+    background-image: url("../../html/week1/assets/product5.jpg");
+}
+
+
+
+
+#articles .article-image-right {
+    width: 3rem;
+    height: 3rem;
+}
+
+#articles footer {
+    float: right;
+    /* background-color: aqua; */
+    /* padding: 1rem; */
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #20032c;
+    color: #516868;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 2rem;
+
+}
+
+#articles article:hover footer {
+    color: #20032c;
+    background-color: #516868;
+}
+
+#articles article:hover span {
+    color: #20032c;
+}
+.article-text {
+    border: 1px black solid;
+ 
+}
+
+#articles .card-right {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+}
+
+nav #ul-left {
+    float: left;
+}
+
+nav #ul-right {
+    float: right;
+}
+nav {
+    border: #20032c 1px solid;
+}
