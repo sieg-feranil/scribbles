@@ -1,0 +1,165 @@
+header{
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    padding-bottom: 7px;    
+}
+#logo-img{
+    height: 100%;
+    width: 100%;
+}
+#menu_toggle,
+#buy_toggle,
+#cash_toggle  {
+    opacity: 0;
+}
+label{
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.menu_box,
+.cash_box {
+    display: none;
+}
+.menu_box li,
+.cash_box li {
+    list-style: none;
+    margin: 0px 5px;
+}
+.menu_box li a{
+    text-decoration: none;
+}
+
+#menu_toggle:checked~.menu_box {
+    display: flex;
+}
+#cash_toggle:checked~.cash_box {
+    display: initial;
+    text-align: left;
+}
+#menu_toggle:checked~#logo {
+    display: none;
+}
+.hamburger-menu {
+    display: flex;
+}
+header span:hover,
+#logo-img:hover {
+    background-color: rgb(255, 247, 235);
+    border-radius: 80%;
+}
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+form.search-bar {
+    width: 400px;
+    display: flex;  
+    background: #e0cfcf7b;
+    align-items: center;
+    border-radius: 60px;
+    padding: 0px 20px;
+
+    
+}
+.search-bar input {
+    border: 0;
+    background: transparent;
+    padding: 12.5px;
+    outline: none;
+    width: 100%;
+}
+button {
+    height:35px;
+    width: 40px;
+    margin-left: 0;
+    border: 0;
+    border-radius: 20%;
+    cursor: pointer;
+    background: transparent;
+}
+button:hover {
+    background-color: rgb(255, 247, 235);
+}
+img{
+    height: 100%;
+    margin-left: 0;
+}
+input {
+    height: 21px;
+    padding: 0;
+    margin-right: 0;
+}
+
+
+
+main {
+    display: flex;
+}
+main>.left {
+    border-right: 1px solid black;
+}
+.left {
+    flex-grow: 25;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right {
+    flex-grow: 2;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.prd-card {
+    border: 1px solid black;
+    height: fit-content;
+    width: 138.5px;
+    margin: 3px;
+}
+.prd-card img {
+    height: 200px;
+}
+.prd-card span {
+    /* border: 1px solid black; */
+    /* padding: 4px; */
+    display: block;
+    text-align: center;
+  
+}
+.prd-card label {
+    border: 1px solid black;
+    display: block;
+    margin: 0;
+}
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+}
+input[type=button] {
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+footer {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.cash_box li span{
+    display: inline-block;
+    width: 50%;
+}
+.cash_box li span.p-r {
+    text-align: right;
+}
+li input[type=button] {
+    margin-bottom: 3px;
+}

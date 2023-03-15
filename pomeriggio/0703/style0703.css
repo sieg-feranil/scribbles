@@ -1,0 +1,44 @@
+html {
+  font-size: 16px;
+}
+
+a:visited {
+  color: black;
+}
+
+a[href="/melange"],
+a[href="/melange"]:visited {
+  color: red;
+}
+
+a[href="/the-one-ring"],
+a[href="/the-one-ring"]:visited {
+  color: rgb(255, 215, 0);
+}
+
+
+a {
+  color: black;
+}
+
+div.movies-quotes span:nth-child(-n+1)::after {
+  content: "«";
+}
+
+div.movies-quotes span::after {
+  content: "»";
+}
+
+div.movies-quotes span span {
+  font-weight: bold;
+}
+
+input[type=checkbox]:checked+span::after {
+  content: "❤";
+}
+
+button:hover {
+  /* display: none; */
+  opacity: 0;
+  
+}

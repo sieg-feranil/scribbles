@@ -1,0 +1,43 @@
+html {
+    font-size: 20px;
+}
+header,
+header ol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ol li {
+    list-style: none;
+    padding: 1rem
+}
+header {
+   border-bottom: 1px solid black;
+}
+header img {
+    height: 5rem;
+    width: 5rem;
+}
+img {
+    width: 7rem;
+    height: 9rem;
+    padding: 0.3rem;
+}
+div.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main > div:last-child span  {
+    display: none;  
+}
+/* hanno lo stesso padre per questo si può usare ~ */
+img.photo-1:hover ~ div .sentence-1,
+img.photo-2:hover ~ div .sentence-2,
+img.photo-3:hover ~ div .sentence-3,
+img.photo-4:hover ~ div .sentence-4,
+img.photo-5:hover ~ div .sentence-5,
+img.photo-6:hover ~ div .sentence-6,
+img.photo-7:hover ~ div .sentence-7{
+   display: initial;
+}
