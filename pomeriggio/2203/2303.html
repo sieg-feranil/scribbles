@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google News</title>
+    <script src="https://kit.fontawesome.com/fa46593e3f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        div,
+        nav,
+        header,
+        main {
+            padding: 5px;
+            background-color: rgb(29, 21, 21);
+            border: 1px solid black;
+            color: white;
+        }
+        li {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        main {
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between">
+            <span>Google News</span>
+            <div class="bg-amber-100 rounded-lg w-6/12 flex justify-between">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" placeholder="search" class="bg-amber-100 w-full rounded-lg">
+                <i class="fa-solid fa-sliders"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-sliders"></i>
+                <i class="fa-solid fa-sliders"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-sliders"></i>
+                <i class="fa-solid fa-sliders"></i>
+            </div>
+        </nav>
+        <nav class="flex px-10">
+            <ul class="flex w-full justify-between">
+                <li><a href="#">Home Page</a></li>
+                <li><a href="#">Per Te</a></li>
+                <li><a href="#">Stai Seguendo</a></li>
+                <li><a href="#">News Showcase</a></li>
+            </ul>
+            <ul class="flex w-full border-l-2 justify-between">
+                <li><a href="#">Italia</a></li>
+                <li><a href="#">Dal mondo</a></li>
+                <li><a href="#">Notizie locali</a></li>
+                <li><a href="#">Affari</a></li>
+                <li><a href="#">Scienza e Tecnologia</a></li>
+                <li><a href="#">Intrattenimento</a></li>
+                <li><a href="#"><i class="fa-solid fa-sliders"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="px-52">
+        <div class="flex justify-between">
+            <div>
+                <span>Modalità di classificazione di questi articoli</span>
+                <span>Le tue notizie</span>
+                <span>data</span>
+            </div>
+            <div class="flex">
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-4">
+            <div class="flex-col w-6/12">
+                <div>
+                    ciao news sinistra
+                </div>
+            </div>
+            <div class="flex-col w-6/12">
+                <div>
+                    ciao news destra
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
