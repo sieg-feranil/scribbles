@@ -6,13 +6,13 @@
 // makeElement('input', 'myInput', '', false)  ->  <input id="myInput">
 // makeElement('div', 'box', 'javascript', true)  -> <div id="box">javascript</div>
 function makeElement(type, slctr, cntnt, close) {
-    slctr= 'id="'+slctr+'"'
+    slctr = 'id="' + slctr + '"'
     if (close) {
-        close = '</'+type+'>'
+        close = '</' + type + '>'
     }
     else
-    close=''
-    let output = '<'+ type +' '+ slctr +'>'+cntnt +close
+        close = ''
+    let output = '<' + type + ' ' + slctr + '>' + cntnt + close
     return output
 }
 

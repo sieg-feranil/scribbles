@@ -14,16 +14,21 @@ function treeStr(input) {
 
     for (let k = 0; k < s+2; k++) {
         let a =[]
+        let b =''
     for (let i = 0; i < input.length; i++) {
         if (i>(s-k) && i<=(s+k)||i==s) {
-            
-            a.push(input[i])
+            if (i==s && k==0) {
+                b+='  '
+            }
+            b=b+'  ' +input[i]+'  '
+            // a.push(input[i])
         }
         else 
-        a.push('')
+        b+='     '
+        // a.push('')
         
     }
-    console.log(a);
+    console.log(b);
 }
 
 }
